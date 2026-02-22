@@ -1,0 +1,18 @@
+title: Translated Articles
+description: 海外記事・エッセイの日本語翻訳アーカイブ
+theme: minima
+baseurl: "/translated-website"
+url: ""
+markdown: kramdown
+
+collections:
+  articles:
+    output: true
+    permalink: /articles/:slug/
+
+defaults:
+  - scope:
+      path: ""
+      type: "articles"
+    values:
+      layout: "article"
